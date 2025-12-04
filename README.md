@@ -1,2 +1,122 @@
-# mobiop.github.io
-Underground 
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RETRO TERMINAL ARCHIVE</title>
+
+<style>
+    /* Максимально простой CSS, совместимый со старыми браузерами */
+    body {
+        margin: 0;
+        padding: 20px;
+        background: #000;
+        color: #00ff66;
+        font-family: monospace;
+        font-size: 16px;
+    }
+
+    h1 {
+        color: #00ff66;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .divider {
+        border-bottom: 1px solid #00ff66;
+        margin: 10px 0 20px;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    a {
+        color: #00ff66;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: #00ff66;
+        color: #000;
+    }
+
+    .footer {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #009944;
+    }
+
+    /* Для терминала */
+    pre {
+        font-size: 18px;
+        line-height: 1.4;
+        font-family: monospace;
+        color: #00ff66;
+        background: #000;
+        margin: 20px 0;
+        padding: 10px;
+        border: 2px solid #00ff66;
+        border-radius: 5px;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>> Underground</h1>
+<div class="divider"></div>
+
+<!-- Новый ASCII-арт -->
+<pre>
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/
+ .      -.   . . . .: .:::.:.\.           .:/
+.   .   .  :      : ....::_:..:\   ___.  :/
+   .   .  .   .:. .. .  .: :.:.:\       :/
+     +   .   .   : . ::. :.:. .:.|\  .:/|
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+</pre>
+
+<ul>
+    <li><a href="bbs.html">BBS/Telnet/SSH</a></li>
+    <li><a href="irc.html">IRC</a></li>
+    <li><a href="termux.html">Termux</a></li>
+</ul>
+
+<div class="footer">
+    RETRO TERMINAL ARCHIVE • оффлайн • совместимость: 1998–2026
+</div>
+
+</div>
+</body>
+</html>
